@@ -60,16 +60,17 @@ export default function Home() {
           <CardHeader>
             <CardTitle className="flex items-center">
               <Map className="h-5 w-5 mr-2" />
-              Field Map
+              Measurements
             </CardTitle>
             <CardDescription>
-              View and manage your field locations
+            Record structural measurements and observations
+
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <Link href="/map">
+            <Link href="/measurements">
               <Button className="w-full" variant="secondary">
-                Open Map
+                Record Measurements
               </Button>
             </Link>
           </CardContent>

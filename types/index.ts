@@ -1,4 +1,5 @@
 import { Measurement } from "@/lib/measurement-store";
+
 export interface RockAnalysis {
     rockType: string;
     texture: string;

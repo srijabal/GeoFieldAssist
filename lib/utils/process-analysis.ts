@@ -21,7 +21,7 @@ export function processAIResponse(analysisText: string): RockAnalysis {
 
     const structures: string[] = [];
     const structureMatches = analysisText.matchAll(/\*\*\*([^:]+):/g);
-    for (const match of structureMatches) {
+    for (const match of Array.from(structureMatches)) {
       if (match[1]) {
         structures.push(match[1].trim());
       }
