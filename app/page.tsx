@@ -40,25 +40,6 @@ export default function Home() {
         <Card className="hover:shadow-lg transition-shadow">
           <CardHeader>
             <CardTitle className="flex items-center">
-              <Mic className="h-5 w-5 mr-2" />
-              Voice Notes
-            </CardTitle>
-            <CardDescription>
-              Record and transcribe field observations
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Link href="/voice-notes">
-              <Button className="w-full" variant="secondary">
-                Record Notes
-              </Button>
-            </Link>
-          </CardContent>
-        </Card>
-
-        <Card className="hover:shadow-lg transition-shadow">
-          <CardHeader>
-            <CardTitle className="flex items-center">
               <Map className="h-5 w-5 mr-2" />
               Measurements
             </CardTitle>
